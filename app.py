@@ -34,7 +34,7 @@ if st.sidebar.button('検索する'):
         names=['登録番号', '氏名又は名称', '所在地(法人)', '登録年月日']
     ))
         
-    _df = pd.concat(data_list, axis=0).reset_index()
+    _df = pd.concat(data_list, axis=0)
     _df = _df.replace(np.nan, '', regex=True)
     df = _df[_df['所在地(法人)'].str.contains(companyAddress, na=False)]
     df = df[df['氏名又は名称'].str.contains(companyName, na=False)]
