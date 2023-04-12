@@ -6,7 +6,7 @@ import csv
 import sys
 from glob import glob
 
-filepaths = ['upload_1.csv', 'upload_2.csv', 'upload_3.csv', 'upload_4.csv', 'upload_5.csv', 'upload_6.csv', 'upload_7.csv', 'upload_8.csv', 'upload_9.csv', 'upload_10.csv', 'upload_11.csv']
+filepaths = ['upload_1.csv', 'upload_2.csv', 'upload_3.csv', 'upload_4.csv', 'upload_5.csv', 'upload_6.csv', 'upload_7.csv', 'upload_8.csv', 'upload_9.csv', 'upload_10.csv', 'upload_11.csv', 'upload_12.csv', 'upload_13.csv']
 
 # filepaths = []
 # for i in range(1, 14):
