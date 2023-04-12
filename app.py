@@ -39,29 +39,3 @@ if st.sidebar.button('検索する'):
     df = _df[_df['所在地(法人)'].str.contains(companyAddress, na=False)]
     df = df[df['氏名又は名称'].str.contains(companyName, na=False)]
     st.table(df[df['登録番号'].str.contains(companyNumber, na=False)])
-
-
-# import streamlit as st
-# from streamlit import session_state as _state
-
-# state = _get_state()
-
-# if state.count == None:
-#     state.count = 0
-
-
-# def main():
-#     st.title('Counter App')
-
-#     increment_count = st.button('count +')
-#     decrement_count = st.button('count -')
-#     if increment_count:
-#         state.count += 1
-#     if decrement_count:
-#         state.count -= 1
-
-#     st.write(f'count: {state.count}')
-
-
-# if __name__ == '__main__':
-#     main()
