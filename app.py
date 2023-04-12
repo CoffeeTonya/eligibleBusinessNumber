@@ -6,7 +6,7 @@ import csv
 import sys
 from glob import glob
 
-filepaths = 'upload_1.csv'
+filepaths = ['upload_1.csv']
 
 # filepaths = []
 # for i in range(1, 14):
